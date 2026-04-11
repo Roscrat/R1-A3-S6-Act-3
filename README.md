@@ -1,2 +1,1 @@
-# tkinter-ejercicios
-Ejercicios Tkinter capitulo 1 al 16
+ Desarrollo de Aplicaciones, Control de Versiones y Consumo de APIs
