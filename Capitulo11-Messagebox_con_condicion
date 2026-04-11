@@ -1,0 +1,16 @@
+from tkinter import *
+from tkinter.messagebox import *
+
+root = Tk()
+
+def pregunta():
+    respuesta = askquestion("Pregunta","¿Quieres continuar?")
+    
+    if respuesta == "yes":
+        showinfo("Respuesta","Elegiste SI")
+    else:
+        showinfo("Respuesta","Elegiste NO")
+
+Button(root,text="Preguntar",command=pregunta).pack()
+
+root.mainloop()

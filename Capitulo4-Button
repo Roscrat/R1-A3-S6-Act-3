@@ -1,0 +1,8 @@
+from tkinter import *
+
+root = Tk()
+
+boton = Button(root, text="No presiones", bg="red", padx=50, pady=20)
+boton.grid(row=0, column=0)
+
+root.mainloop()

@@ -1,0 +1,13 @@
+from tkinter import *
+
+root = Tk()
+
+colores = ["Rojo","Azul","Verde"]
+
+x = StringVar()
+x.set("Rojo")
+
+for color in colores:
+    Radiobutton(root,text=color,variable=x,value=color).pack()
+
+root.mainloop()

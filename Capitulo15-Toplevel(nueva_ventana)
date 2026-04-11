@@ -1,0 +1,11 @@
+from tkinter import *
+
+root = Tk()
+
+frame = LabelFrame(root,text="Buscador",padx=50,pady=50)
+frame.pack()
+
+Entry(frame).grid(row=0,column=0)
+Button(frame,text="Buscar").grid(row=0,column=1)
+
+root.mainloop()

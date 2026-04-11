@@ -1,0 +1,10 @@
+from tkinter import *
+
+root = Tk()
+
+x = IntVar()
+
+Radiobutton(root, text="Opción 1", variable=x, value=1).pack()
+Radiobutton(root, text="Opción 2", variable=x, value=2).pack()
+
+root.mainloop()

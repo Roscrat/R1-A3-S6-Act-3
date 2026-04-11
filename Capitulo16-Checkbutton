@@ -1,0 +1,9 @@
+from tkinter import *
+
+root = Tk()
+
+var = IntVar()
+
+Checkbutton(root,text="Aceptar términos",variable=var).pack()
+
+root.mainloop()

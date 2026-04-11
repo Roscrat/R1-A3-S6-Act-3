@@ -1,0 +1,14 @@
+from tkinter import *
+
+root = Tk()
+
+root.title("Calculadora")
+
+pantalla = Entry(root,width=25)
+pantalla.grid(row=0,column=0,columnspan=3)
+
+Button(root,text="1").grid(row=1,column=0)
+Button(root,text="2").grid(row=1,column=1)
+Button(root,text="3").grid(row=1,column=2)
+
+root.mainloop()

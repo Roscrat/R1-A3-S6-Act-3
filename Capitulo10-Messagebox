@@ -1,0 +1,11 @@
+from tkinter import *
+from tkinter.messagebox import *
+
+root = Tk()
+
+def mensaje():
+    showinfo("Titulo","Este es un mensaje")
+
+Button(root,text="Mostrar",command=mensaje).pack()
+
+root.mainloop()
